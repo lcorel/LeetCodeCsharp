@@ -6,9 +6,9 @@ using System.Text;
 
 namespace LeetCodeCsharp
 {
-    public class 加一
+    public static class 加一
     {
-        public int[] PlusOne(int[] digits)
+        public static int[] PlusOne(int[] digits)
         {
             if (digits == null)
             {

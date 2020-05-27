@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LeetCodeCsharp
 {
-    public class 两数之和
+    public static class 两数之和
     {
         public static IEnumerable<int> TwoSum(int[] nums, int target)
         {

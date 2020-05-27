@@ -11,10 +11,10 @@ using System.Linq;
 
 namespace LeetCodeCsharp
 {
-    public class 快乐数
+    public static class 快乐数
     {
 
-        public bool IsHappy(int n)
+        public static bool IsHappy(int n)
         {
             //保存计算结果，如果之前存在过，则说明进入了无限循环
             var calcResultList = new List<int>();

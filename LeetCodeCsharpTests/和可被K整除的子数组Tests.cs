@@ -7,12 +7,13 @@ using System.Text;
 namespace LeetCodeCsharp.Tests
 {
     [TestClass()]
-    public class 快乐数Tests
+    public class 和可被K整除的子数组Tests
     {
         [TestMethod()]
-        public void IsHappyTest()
+        public void SubarraysDivByKTest()
         {
-            var rt = 快乐数.IsHappy(19);
+            var b = 和可被K整除的子数组.SubarraysDivByK(new[] {-6,1,-5,10}, 9);
+            Assert.Fail();
         }
     }
 }

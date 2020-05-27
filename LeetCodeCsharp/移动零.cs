@@ -5,9 +5,9 @@ using System.Text;
 
 namespace LeetCodeCsharp
 {
-    public class 移动零
+    public static class 移动零
     {
-        public void MoveZeroes(int[] nums)
+        public static void MoveZeroes(int[] nums)
         {
             
             var stepNumber = 0;

@@ -11,8 +11,7 @@ namespace LeetCodeCsharp
         [TestMethod()]
         public void PlusOneTest()
         {
-            var b = new 加一();
-            var result = b.PlusOne(new[] {6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3});
+            var result = 加一.PlusOne(new[] {6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3});
         }
     }
 }
